@@ -3,7 +3,7 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Shop &mdash; Free Website Template, Free HTML5 Template by gettemplates.co</title>
+	<title>Il tragattone &mdash; Showroom delle nostre realizzazioni</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Free HTML5 Website Template by gettemplates.co" />
 	<meta name="keywords" content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
@@ -126,8 +126,8 @@
 				<div class="col-md-8 col-md-offset-2 text-center">
 					<div class="display-t">
 						<div class="display-tc animate-box" data-animate-effect="fadeIn">
-							<h1>Contact Us</h1>
-							<h2>Free html5 templates Made by <a href="http://freehtml5.co" target="_blank">freehtml5.co</a></h2>
+							<h1>Contattaci</h1>
+							<h2>Il modo migliore per avere tutte le informazioni </a></h2>
 						</div>
 					</div>
 				</div>
@@ -148,50 +148,76 @@
 							<li class="phone"><a href="tel://1234567920">+ 1235 2355 98</a></li>
 							<li class="email"><a href="mailto:info@yoursite.com">info@yoursite.com</a></li>
 							-->
-							<li class="url"><a href="https://gabriele-simonetta.github.io">gabriele-simonetta.github.io</a></li>
+							<li class="icon instagram-with-circle"><a href="https://gabriele-simonetta.github.io">gabriele-simonetta.github.io</a></li>
 						</ul>
 					</div>
 
 				</div>
 				<div class="col-md-6 animate-box">
-					<h3>Contattaci</h3>
-					<form action="#">
-						<div class="row form-group">
-							<div class="col-md-6">
-								<!-- <label for="fname">First Name</label> -->
-								<input type="text" id="fname" class="form-control" placeholder="Your firstname">
-							</div>
-							<div class="col-md-6">
-								<!-- <label for="lname">Last Name</label> -->
-								<input type="text" id="lname" class="form-control" placeholder="Your lastname">
-							</div>
-						</div>
+					<h3>Scrivici qui</h3>
+					<div class="container">
 
-						<div class="row form-group">
-							<div class="col-md-12">
-								<!-- <label for="email">Email</label> -->
-								<input type="text" id="email" class="form-control" placeholder="Your email address">
-							</div>
-						</div>
+          <form
+            name="gform"
+            id="gform"
+            enctype="text/plain"
+            action="https://docs.google.com/forms/d/e/1FAIpQLSf5fEogMxri1kOi45r1kBzm1OopcO2jYkrdJvMQV4gvY6GfMw/formResponse?"
+            target="hidden_iframe"
+            onsubmit="submitted=true;"
+          >
+            <div class="row">
+              <div class="col-sm-6">
+                <input
+                  type="text"
+                  name="entry.1614075567"
+                  id="entry.1614075567"
+                  class="form-control mt-x-0"
+                  placeholder="Nome e Cognome"
+                  required
+                />
+              </div>
+              <div class="col-sm-6">
+                <input
+                  type="email"
+                  name="entry.1584856768"
+                  id="entry.1584856768"
+                  class="form-control"
+                  placeholder="Email"
+                  required
+                />
+              </div>
+			&ensp;
+              <div class="col-sm-12">
+                <textarea
+                  name="entry.536165174"
+                  id="entry.536165174"
+                  class="form-control"
+                  placeholder="Messaggio"
+                  required
+                ></textarea>
+              </div>
 
-						<div class="row form-group">
-							<div class="col-md-12">
-								<!-- <label for="subject">Subject</label> -->
-								<input type="text" id="subject" class="form-control" placeholder="Your subject of this message">
-							</div>
-						</div>
+            </div>
+			<br>
 
-						<div class="row form-group">
-							<div class="col-md-12">
-								<!-- <label for="message">Message</label> -->
-								<textarea name="message" id="message" cols="30" rows="10" class="form-control" placeholder="Say something about us"></textarea>
-							</div>
-						</div>
-						<div class="form-group">
-							<input type="submit" value="Send Message" class="btn btn-primary">
-						</div>
-
-					</form>		
+            <button
+              href="#"
+              class="btn btn-primary col- sm-3"
+              type="submit"
+              id="submit-button"
+            >
+              Invia
+              <span class="glyphicon paper-plane"></span>
+            </button>
+          </form>
+          <div id="myDIV"></div>
+          <iframe
+            name="hidden_iframe"
+            id="hidden_iframe"
+            style="display: none"
+            onload= if(submitted) {  }
+          ></iframe>
+        </div>
 				</div>
 			</div>
 			
