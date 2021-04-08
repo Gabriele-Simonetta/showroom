@@ -1833,7 +1833,7 @@ label.star:before {
 }
 
 textarea.review {
-  background: rgba(255, 255, 255, 0.143);
+  background: rgba(255, 255, 255, 0.644);
   border: none;
   width: 100%;
   max-width: 100%;
@@ -1847,7 +1847,6 @@ label.review {
   display: block;
   transition: opacity 0.25s;
   color: rgb(0, 0, 0);
-
 }
 
 input.star:checked ~ .rev-box {
