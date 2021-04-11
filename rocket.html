@@ -344,7 +344,7 @@
                   required
                 />
               </div>
-              <div class="col-sm-3">
+              <div class="col-sm-6">
                 <input
                   type="email"
                   name="entry.1584856768"
@@ -355,16 +355,18 @@
                 />
 
               </div>
-			  	<div class="col-sm-3">
-                <input
+			   <!-- value è il campo oggetto da modificare in ogni progetto -->
+                <input type="hidden"
                   name="entry.1260927640"
                   id="entry.1260927640"
                   class="form-control"
                   placeholder="Oggetto"
+				  value = "Rocket" 
                   required
                 >           
-				   </div>
+				   
 			&ensp;
+
               <div class="col-sm-12">
                 <textarea
                   name="entry.536165174"
@@ -385,7 +387,7 @@
               id="submit-button"
             >
               Invia
-              <span class="glyphicon paper-plane"></span>
+              <span class="icon-paper-plane"></span>
             </button>
           </form>
           <div id="myDIV"></div>
