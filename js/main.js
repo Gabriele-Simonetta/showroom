@@ -20,8 +20,6 @@
 		});
 
 	};
-
-
 	var offcanvasMenu = function() {
 
 		$('#page').prepend('<div id="fh5co-offcanvas" />');
@@ -315,14 +313,14 @@
 	    // form google
 		function processForm(e) {
 			var button = document.getElementById("submit-button");
-		   //button.innerText = "Inviato";
+		   button.innerText = "Inviato";
 		   button.classList.add('sent');
 			setTimeout(function() {
 				form.reset();
 			  }, 1000);
-		 /*   button.text(function(i, text) {
+		  button.text(function(i, text) {
 				return text === "Inviato!" ? "Invia" : "Inviato!";
-			});   */
+			});   
 	
 		}
 		
@@ -333,7 +331,25 @@
 			form.addEventListener("submit", processForm);
 		}    
 
+		function processrating(e) {
+			var button = document.getElementById("ratings-button");
+			button.innerText = "Inviato";
+			button.classList.add('sent');
+			setTimeout(function() {
+				rat.reset();
+			  }, 1000);
+			  button.text(function(i, text) {
+				return text === "Inviato!" ? "Lascia un commento" : "Inviato!";
+			});   
+		}
+		var rat = document.getElementById('ratings');
+		if (rat.attachEvent) {
+			rat.attachEvent("submit", processrating);
+		} else {
+			rat.addEventListener("submit", processrating);
+		}    
 }());
+
 $( ".submit-button" ).click(function() {
     $(this).html('Inviato');
  });
