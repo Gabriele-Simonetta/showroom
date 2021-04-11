@@ -53,6 +53,8 @@
 	<!-- Theme style  -->
 	<link rel="stylesheet" href="css/style.css">
 
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"> 
+
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
 	<!-- FOR IE9 below -->
@@ -70,7 +72,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-3 col-xs-2">
-					<div id="fh5co-logo"><a href="index.html">Il Tragattone</a></div>
+					<div id="fh5co-logo"><a href="index.html"><img src="images/logo.png" alt="user"></a></div>
 				</div>
 				<div class="col-md-6 col-xs-6 text-center menu-1">
 					<ul>
@@ -276,33 +278,50 @@
 									</div>
 										<div class="cont">
 											<div class="stars">
-											<form action="">
-												<input class="star star-5" id="star-5-2" type="radio" name="star"/>
-												<label class="star star-5" for="star-5-2"></label>
-												<input class="star star-4" id="star-4-2" type="radio" name="star"/>
+											<form 
+											 name="gform"
+												id="Ratings"
+												enctype="text/plain"
+												action="https://docs.google.com/forms/d/e/1FAIpQLSdYM_JeMltIo6_qNI6_6-KTt3Xm6CCk75qKLJ3ka2kuWPTemQ/formResponse?"
+												target="hidden_iframe"
+												onsubmit="submitted=true;"
+											>
+												<input  value="5" class="star star-5" id="star-5-2" type="radio" name="entry.1697425985"/>
+												<label  class="star star-5" for="star-5-2"></label>
+												<input value="4"class="star star-4" id="star-4-2" type="radio" name="entry.1697425985"/>
 												<label class="star star-4" for="star-4-2"></label>
-												<input class="star star-3" id="star-3-2" type="radio" name="star"/>
+												<input value="3"class="star star-3" id="star-3-2" type="radio" name="entry.1697425985"/>
 												<label class="star star-3" for="star-3-2"></label>
-												<input class="star star-2" id="star-2-2" type="radio" name="star"/>
+												<input value="2"class="star star-2" id="star-2-2" type="radio" name="entry.1697425985"/>
 												<label class="star star-2" for="star-2-2"></label>
-												<input class="star star-1" id="star-1-2" type="radio" name="star"/>
+												<input value="1" class="star star-1" id="star-1-2" type="radio" name="entry.1697425985"/>
 												<label class="star star-1" for="star-1-2"></label>
 												<div class="rev-box">
-													<textarea class="review" col="30" name="review"></textarea>
+												<input
+													type="text"
+													name="entry.947404597"
+													id="entry.947404597"
+													class="form-control mt-x-0 review-user"
+													placeholder="Nome e Cognome"
+													required
+													/>
+												<br>
+													<textarea class="review" col="30" name="entry.67438171" placeholder="Messaggio" ></textarea>
+													
 													<label class="review" for="review">  
 													<button
-														href="#"
-														class="btn btn-primary"
-														type="submit"
-														id="feedback-button"
-														>
-														Lascia un commento
-														<span class="glyphicon paper-plane"></span>
-														</button>
+													href="#"
+													class="btn btn-primary"
+													type="submit"
+													id="submit-button"
+													>
+													Lascia un commento
+													<span class="icon-feather"></span>
+													</button>
 													</label>
 												</div>
 											</form>
-											<hr/>
+											<br>
 											<br>
 											</div>
 										</div>
@@ -313,12 +332,12 @@
 				</div>
 			</div>
 		</div>
-		<hr/>
-		<hr/>
-		<hr/>
+		<br>
+		<br>			
+		<br>
 
 	</div>
-<hr/>
+	<br>
 
     <section id="contact" class="site-section text-center">
         <div class="container">
@@ -403,7 +422,7 @@
 		<div class="container">
 			<div class="row row-pb-md">
 				<div class="col-md-4 fh5co-widget">
-					<h3>Il Tragattone</h3>
+					<img src="images/logo.png" alt="user">
 					<p>Ogni oggetto è un opera prima, personalizzata e differente dalle altre. E' in questa peculiarità che si cela la creatività.</p>
 				</div>
 				<div class="col-md-2 col-sm-4 col-xs-6 col-md-push-1">

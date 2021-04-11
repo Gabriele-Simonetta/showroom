@@ -744,7 +744,7 @@ figure {
 #fh5co-about,
 #fh5co-contact,
 #fh5co-footer {
-  padding: 7em 0;
+  padding: 12em 0;
   clear: both;
 }
 @media screen and (max-width: 768px) {
@@ -756,7 +756,7 @@ figure {
   #fh5co-about,
   #fh5co-contact,
   #fh5co-footer {
-    padding: 3em 0;
+    padding: 8em 0;
   }
 }
 
@@ -1749,13 +1749,6 @@ figure {
   opacity: 0;
 }
 
-@import url(https://fonts.googleapis.com/css?family=Roboto:500,100,300,700,400);
-* {
-  margin: 0;
-  padding: 0;
-  font-family: roboto;
-}
-
 .cont {
   width: 93%;
   max-width: 350px;
@@ -1769,20 +1762,7 @@ figure {
   overflow: hidden;
 }
 
-hr {
-  margin: 20px;
-  border: none;
-  border-bottom: thin solid rgba(255, 255, 255, 0.1);
-}
 
-div.title {
-  font-size: 2em;
-}
-
-h1 span {
-  font-weight: 300;
-  color: #fd4;
-}
 
 div.stars {
   width: 270px;
@@ -1850,8 +1830,27 @@ label.review {
 }
 
 input.star:checked ~ .rev-box {
-  height: 125px;
+  height: 250px;
   overflow: visible;
 }
 
+
+
 /*# sourceMappingURL=style.css.map */
+@keyframes flyAway {
+  from {
+    transform: translate(0) scale(1) rotate(0);
+  }
+  to {
+    transform: translate(30vh, -5vh) scale(0) rotate(-20deg);
+  }
+}
+
+#submit-button.sent span {
+  animation: flyAway 1s cubic-bezier(0.45, -0.1, 0.75, 0.2) forwards;
+}
+
+.review-user {
+  background:  rgba(255, 255, 255, 0.644);
+  border: none;
+}
