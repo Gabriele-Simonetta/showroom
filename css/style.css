@@ -1762,8 +1762,6 @@ figure {
   overflow: hidden;
 }
 
-
-
 div.stars {
   width: 270px;
   display: inline-block;
@@ -1829,12 +1827,12 @@ label.review {
   color: rgb(0, 0, 0);
 }
 
+/* Lungezza casella Dai un voto height: 250px; */
+
 input.star:checked ~ .rev-box {
-  height: 250px;
+  height: 280px;
   overflow: visible;
 }
-
-
 
 /*# sourceMappingURL=style.css.map */
 @keyframes flyAway {
@@ -1851,6 +1849,6 @@ input.star:checked ~ .rev-box {
 }
 
 .review-user {
-  background:  rgba(255, 255, 255, 0.644);
+  background: rgba(255, 255, 255, 0.644);
   border: none;
 }
