@@ -161,7 +161,7 @@
 							<li class="phone"><a href="tel://1234567920">+ 1235 2355 98</a></li>
 							<li class="email"><a href="mailto:info@yoursite.com">info@yoursite.com</a></li>
 							-->
-							<li class="icon instagram-with-circle"><a href="https://gabriele-simonetta.github.io">gabriele-simonetta.github.io</a></li>
+							<li class="instagram"><a href="https://gabriele-simonetta.github.io">Presto su Instagram</a></li>
 						</ul>
 					</div>
 
@@ -174,7 +174,7 @@
             name="gform"
             id="gform"
             enctype="text/plain"
-            action="https://docs.google.com/forms/d/e/1FAIpQLSf5fEogMxri1kOi45r1kBzm1OopcO2jYkrdJvMQV4gvY6GfMw/formResponse?"
+            action="https://docs.google.com/forms/d/e/1FAIpQLSfNZMHsgw1i3eucVHxmijQWvE0QlJosWi-9XnjDJ9vSj55AMQ/formResponse?"
             target="hidden_iframe"
             onsubmit="submitted=true;"
           >
@@ -198,8 +198,20 @@
                   placeholder="Email"
                   required
                 />
+
               </div>
+			   <!-- value è il campo oggetto da modificare in ogni progetto -->
+                <input type="hidden"
+                  name="entry.1260927640"
+                  id="entry.1260927640"
+                  class="form-control"
+                  placeholder="Oggetto"
+				  value = "Informazioni generali" 
+                  required
+                >           
+				   
 			&ensp;
+
               <div class="col-sm-12">
                 <textarea
                   name="entry.536165174"
@@ -215,12 +227,12 @@
 
             <button
               href="#"
-              class="btn btn-primary col- sm-3"
+              class="btn btn-primary"
               type="submit"
               id="submit-button"
             >
               Invia
-              <span class="glyphicon paper-plane"></span>
+              <span class="icon-paper-plane"></span>
             </button>
           </form>
           <div id="myDIV"></div>
@@ -236,9 +248,9 @@
 			
 		</div>
 	</div>
-
-	<div id="map" class="animate-box" data-animate-effect="fadeIn"></div>
 	<!--
+	<div id="map" class="animate-box" data-animate-effect="fadeIn"></div>
+
 	<div id="fh5co-started">
 		<div class="container">
 			<div class="row animate-box">
