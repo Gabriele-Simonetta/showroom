@@ -121,6 +121,7 @@ body {
   transform: translateY(-60%);
   font-family: "Righteous", cursive;
   color: #363e49;
+  z-index: 10000;
 }
 
 .error__title {
@@ -149,10 +150,12 @@ body {
   transition-duration: 0.2s;
   font-size: 0.75em;
   font-family: "Righteous", cursive;
+  z-index: 10000;
 }
 
 .error__button:hover {
   color: #21252c;
+  z-index: 10000;
 }
 
 .error__button--active {
@@ -164,8 +167,18 @@ body {
 .error__button--active:hover {
   box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.5);
   color: white;
+  z-index: 10000;
+}
+.error__buton--active {
+  background-color: #fdfdfd07;
+  border: 2px solid #fffffff5;
+  color: white;
 }
 
+.error__buton--active:hover {
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.5);
+  color: white;
+}
 .astronaut {
   position: absolute;
   width: 185px;
