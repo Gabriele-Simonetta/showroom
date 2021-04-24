@@ -19,6 +19,20 @@
       sizes="180x180"
       href="images/favicon-16x16.png"
     />
+	<!-- 
+	//////////////////////////////////////////////////////
+
+	FREE HTML5 TEMPLATE 
+	DESIGNED & DEVELOPED by FreeHTML5.co
+		
+	Website: 		http://freehtml5.co/
+	Email: 			info@freehtml5.co
+	Twitter: 		http://twitter.com/fh5co
+	Facebook: 		https://www.facebook.com/fh5co
+
+	//////////////////////////////////////////////////////
+	 -->
+
   	<!-- Facebook and Twitter integration -->
 	<meta property="og:title" content=""/>
 	<meta property="og:image" content=""/>
@@ -49,6 +63,8 @@
 
 	<!-- Theme style  -->
 	<link rel="stylesheet" href="css/style.css">
+
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"> 
 
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
@@ -89,8 +105,8 @@
 						<li class="has-dropdown">
 							<a href="services.html">Servizi</a>
 							<ul class="dropdown">
-								<li><a href="#oldproject">Progetti realizzati</a></li>
-								<li><a href="#newproject">Nuovi progetti</a></li>
+								<li><a href="services.html#oldproject">Progetti realizzati</a></li>
+								<li><a href="services.html#newproject">Nuovi progetti</a></li>
 							</ul>
 						</li>
 						<li><a href="contact.html">Contatti</a></li>
@@ -98,7 +114,7 @@
 				</div>
 				<div class="col-md-3 col-xs-4 text-right hidden-xs menu-2">
 					<ul>
-							<!--
+					<!--
 						<li class="search">
 							<div class="input-group">
 						      <input type="text" placeholder="Search..">
@@ -123,8 +139,8 @@
 				<div class="col-md-8 col-md-offset-2 text-center">
 					<div class="display-t">
 						<div class="display-tc animate-box" data-animate-effect="fadeIn">
-							<h1>Servizi</h1>
-							<h2>Cosa proponiamo.</a></h2>
+							<h1>Ci sono problemi? scrivici</h1>
+							<h2>Non abbiamo la soluzione ad ogni problema della vita, ma ci proveremo...</a></h2>
 						</div>
 					</div>
 				</div>
@@ -132,109 +148,98 @@
 		</div>
 	</header>
 	
-	<div id="fh5co-services" class="fh5co-bg-section">
+	<div id="fh5co-contact">
 		<div class="container">
-		<a name="oldproject"> </a>
-		<h1>Progetti già realizzati</h1>
-		<p> E' possibile riprodurre i progetti realizzati già in precedenza con un notevole risparmio di tempo ed energie, l'oggetto risulta essere in parte personalizzabile, ad esempio nei colori o in alcune funzioni.  </p>
-		<p> La personalizzazione è da definire prima di concordare la realizzazione, sarà nostra premura esporti in ogni parte il funzionamento dei prodotti se richiesto così da non avere poi sorprese. </p>
-		<div class="text-center">
-		<h3> Opzioni disponibili</h3 >
-		</div>
-		<br>
-		<br>
-
 			<div class="row">
-				<div class="col-md-4 col-sm-4 text-center">
-					<div class="feature-center animate-box" data-animate-effect="fadeIn">
-						<span class="icon">
-							<i class="icon-clock"></i>
-						</span>
-						<h3>Tempi minori</h3>
-						<p>Rispetto alla realizzazione di un nuovo progetto.</p>
-						<p><a href="#" class="btn btn-primary btn-outline">Learn More</a></p>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-4 text-center">
-					<div class="feature-center animate-box" data-animate-effect="fadeIn">
-						<span class="icon">
-							<i class="icon-hair-cross"></i>
-						</span>
-						<h3>Personalizzazione</h3>
-						<p>Il progetto è comunque in parte personalizzabile per adattarsi a quanto da te richiesto, sii specifico.</p>
-						<p><a href="#" class="btn btn-primary btn-outline">Learn More</a></p>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-4 text-center">
-					<div class="feature-center animate-box" data-animate-effect="fadeIn">
-						<span class="icon">
-							<i class="icon-paper-plane"></i>
-						</span>
-						<h3>Spedizione in Italia</h3>
-						<p>E' possibile spedire l'oggetto in tutta italia, eventuali costi di spedizione verranno verranno calcolati a parte.</p>
-						<p><a href="privacyeterms.html" class="btn btn-primary btn-outline">Scopri di più</a></p>
-					</div>
+				<div class="col-md-8 animate-box">
+					<h4>Se c'è qualsiasi problema con uno dei nostri oggetti scrivici qui:</h4>
+					<div class="container">
+
+          <form
+            name="help"
+            id="help"
+            enctype="text/plain"
+            action="https://docs.google.com/forms/d/e/1FAIpQLSfNZMHsgw1i3eucVHxmijQWvE0QlJosWi-9XnjDJ9vSj55AMQ/formResponse?"
+            target="hidden_iframe"
+            onsubmit="submitted=true;"
+          >
+            <div class="row">
+              <div class="col-sm-6">
+                <input
+                  type="text"
+                  name="entry.1614075567"
+                  id="entry.1614075567"
+                  class="form-control mt-x-0"
+                  placeholder="Nome e Cognome"
+                  required
+                />
+              </div>
+              <div class="col-sm-3">
+                <input
+                  type="email"
+                  name="entry.1584856768"
+                  id="entry.1584856768"
+                  class="form-control"
+                  placeholder="Email"
+                  required
+                />
+
+              </div>
+			   <!-- value è il campo oggetto da modificare in ogni progetto -->
+                <div class="col-sm-3"> 
+				<input
+				type="text"
+                  name="entry.1260927640"
+                  id="entry.1260927640"
+                  class="form-control"
+                  placeholder="Oggetto"
+
+                  required
+                >
+				</div>           
+				   
+			&ensp;
+
+              <div class="col-sm-12">
+                <textarea
+                  name="entry.536165174"
+                  id="entry.536165174"
+                  class="form-control"
+                  placeholder="Messaggio"
+                  required
+                ></textarea>
+              </div>
+
+            </div>
+			<br>
+
+            <button
+              href="#"
+              class="btn btn-primary"
+              type="submit"
+              id="help-button"
+            >
+              Invia
+              <span class="icon-paper-plane"></span>
+            </button>
+          </form>
+          <div id="myDIV"></div>
+		  <p id="demo"></p>
+          <iframe
+            name="hidden_iframe"
+            id="hidden_iframe"
+            style="display: none"
+            onload= if(submitted) {  }
+          ></iframe>
+        </div>
 				</div>
 			</div>
+			
 		</div>
 	</div>
-<div id="fh5co-services" class="fh5co-bg-section">
-		<div class="container">
-		<a name="newproject"> </a>
-		<h1>Nuovi progetti</h1>
-		<p> E' possibile riprodurre i progetti realizzati già in precedenza con un notevole risparmio di tempo ed energie, l'oggetto risulta essere in parte personalizzabile, ad esempio nei colori o in alcune funzioni.  </p>
-		<p> La personalizzazione è da definire prima di concordare la realizzazione, sarà nostra premura esporti in ogni parte il funzionamento dei prodotti se richiesto così da non avere poi sorprese. </p>
-		<div class="text-center">
-		<h3> Opzioni disponibili</h3 >
-		</div>
-		<br>
-		<br>
-
-			<div class="row">
-				<div class="col-md-4 col-sm-4 text-center">
-					<div class="feature-center animate-box" data-animate-effect="fadeIn">
-						<span class="icon">
-							<i class="icon-calendar"></i>
-						</span>
-						<h3>Tempi</h3>
-						<p>Si avrà tempi più lunghi necessari per inquadrare al meglio la richiesta e per trovare la migliore soluzione</p>
-						<p><a href="#" class="btn btn-primary btn-outline">Learn More</a></p>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-4 text-center">
-					<div class="feature-center animate-box" data-animate-effect="fadeIn">
-						<span class="icon">
-							<i class="icon-ruler"></i>
-						</span>
-						<h3>Personalizzazione</h3>
-						<p>Il progetto è realizzato su tua commissione e creato misura per le tue esigenze, sii specifico.</p>
-						<p><a href="#" class="btn btn-primary btn-outline">Learn More</a></p>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-4 text-center">
-					<div class="feature-center animate-box" data-animate-effect="fadeIn">
-						<span class="icon">
-							<i class="icon-paper-plane"></i>
-						</span>
-						<h3>Spedizione in Italia</h3>
-						<p>E' possibile spedire l'oggetto in tutta italia, eventuali costi di spedizione verranno verranno calcolati a parte.</p>
-						<p><a href="privacyeterms.html" class="btn btn-primary btn-outline">Scopri di più</a></p>
-					</div>
-				</div>
-				<div class="col-md-12 col-sm-12 text-center">
-					<div class="feature-center animate-box" data-animate-effect="fadeIn">
-						<span class="icon">
-							<i class="icon-rocket"></i>
-						</span>
-						<h3>Working propcess</h3>
-						<p>Parteciperai direttamente alla fase di creazione per seguire step per step quanto fatto.</p>
-						<p><a href="privacyeterms.html" class="btn btn-primary btn-outline">Scopri di più</a></p>
-					</div>
-				</div>
-			</div>
-		</div>
 	<!--
-	</div>
+	<div id="map" class="animate-box" data-animate-effect="fadeIn"></div>
+
 	<div id="fh5co-started">
 		<div class="container">
 			<div class="row animate-box">
@@ -325,9 +330,12 @@
 	<script src="js/jquery.countTo.js"></script>
 	<!-- Flexslider -->
 	<script src="js/jquery.flexslider-min.js"></script>
+	<!-- Google Map -->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
+	<script src="js/google_map.js"></script>
+
 	<!-- Main -->
 	<script src="js/main.js"></script>
 
 	</body>
 </html>
-
